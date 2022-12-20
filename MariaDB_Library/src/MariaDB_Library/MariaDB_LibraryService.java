@@ -24,14 +24,12 @@ public class MariaDB_LibraryService {
 		
 		while(true) {
 			System.out.println();
-			System.out.println("*********************");
-			System.out.println("    1. DB Connect   ");
-			System.out.println("    2. Create  	    "); 
-			System.out.println("    3. Read         "); 
-			System.out.println("    4. Update       "); 
-			System.out.println("    5. Delete       "); 
-			System.out.println("    6. DB Exit      ");
-			System.out.println("*********************");
+			System.out.println("    1. DB 연결 (DB Connect)    ");
+			System.out.println("    2. DB INSERT  (Create)    "); 
+			System.out.println("    3. DB SELECT  (Read)      "); 
+			System.out.println("    4. DB UPDATE  (Update)    "); 
+			System.out.println("    5. DB DELETE  (Delete)    "); 
+			System.out.println("    6. DB Exit                ");
 			System.out.print(" 번호 입력 :  ");
 			
 			num = menu_scan.nextInt();
